@@ -40,20 +40,57 @@
         <h2 class="text-2xl font-bold text-gray-900 mb-8">Featured Projects</h2>
         <div class="grid md:grid-cols-2 gap-6">
             
-            <!-- Project Card 1 -->
-            <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-xs hover:shadow-md transition">
-                <div class="flex items-center justify-between mb-3">
-                        <span class="text-xs font-semibold text-indigo-600 uppercase tracking-wider bg-indigo-50 px-2.5 py-1 rounded-full">Full-Stack / Python</span>
+
+
+            
+            <!-- Project Card: QA Tool (Programming Q&A Platform) -->
+            <div
+                class="bg-white border border-gray-200 rounded-xl p-6 shadow-sm hover:shadow-md transition flex flex-col justify-between">
+                <div>
+                    <div class="flex flex-wrap gap-2 mb-3">
+                        <span
+                            class="text-xs font-semibold text-indigo-600 uppercase tracking-wider bg-indigo-50 px-2.5 py-1 rounded-full">Next.js</span>
+                        <span
+                            class="text-xs font-semibold text-sky-600 uppercase tracking-wider bg-sky-50 px-2.5 py-1 rounded-full">PostgreSQL
+                            & Prisma</span>
+                        <span
+                            class="text-xs font-semibold text-blue-600 uppercase tracking-wider bg-blue-50 px-2.5 py-1 rounded-full">Docker</span>
+                    </div>
+            
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">QA Tool — Programming Q&A Platform</h3>
+            
+                    <p class="text-gray-600 text-sm mb-4 leading-relaxed">
+                        A full-stack, channel-based discussion forum featuring secure session auth (HTTP-only cookies/BCrypt), an
+                        advanced paginated search engine, and an automated admin moderation dashboard. Implemented complex SQL
+                        relationships with cascading deletes and localized in-memory rate limiting for security.
+                    </p>
+            
+                    <ul class="text-xs text-gray-500 space-y-1 mb-6 list-disc list-inside">
+                        <li>Designed infinite-depth nested threaded replies.</li>
+                        <li>Fully containerized environment via <code
+                                class="bg-gray-100 px-1 rounded text-gray-800 text-[11px]">docker-compose</code> with auto-seeding.
+                        </li>
+                        <li>Protected endpoints with rate-limiting constraints (Login & Posting).</li>
+                    </ul>
                 </div>
-                <h3 class="text-xl font-bold text-gray-900 mb-2">Programming Q&A Platform</h3>
-                <p class="text-gray-600 text-sm mb-4">
-                    Developed a full-stack, Stack Overflow-inspired web application during CMPT 353. Features include user authentication, real-time vote tallies, tag-based searching, and a relational database backend to handle complex user threads and responses efficiently.
-                </p>
-                <div class="flex space-x-4 text-sm font-medium">
-                    <a href="https://github.com/yourusername/your-repo-name" target="_blank" class="text-indigo-600 hover:underline">GitHub Repo →</a>
+            
+                <div class="flex items-center justify-between pt-4 border-t border-gray-100 text-sm font-medium">
+                    <a href="https://github.com/yourusername/your-repo" target="_blank"
+                        class="text-gray-500 hover:text-gray-900 transition flex items-center">
+                        GitHub Repository
+                    </a>
+                    <!-- Swap out the placeholder link below with your actual Google Drive video link -->
+                    <a href="https://drive.google.com/file/d/1ja139AQPWlSx6hhnPU1MC3by3TWjODef/view?usp=sharing" target="_blank"
+                        class="text-indigo-600 hover:text-indigo-800 transition flex items-center gap-1">
+                        Watch Demo Video <span class="text-xs">↗</span>
+                    </a>
                 </div>
             </div>
             
+
+
+
+
             <!-- Project Card 2 -->
             <div class="bg-white border border-gray-200 rounded-xl p-6 shadow-xs hover:shadow-md transition">
                 <div class="flex items-center justify-between mb-3">
